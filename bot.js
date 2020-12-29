@@ -27,7 +27,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content == 'Guled is the best'){
-      msg.send(':PogU:')
+      msg.channel.send(':PogU:')
   }
 })
 
