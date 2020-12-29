@@ -25,7 +25,7 @@ client.on('message', msg => {
     }
 })
 
-
+/* */
 client.on('message', msg => {
   if (msg.content === `${BOT_PREFIX}${MOD_ME_COMMAND}`) {
     modUser(msg.member)
